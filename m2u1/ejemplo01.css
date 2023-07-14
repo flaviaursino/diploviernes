@@ -1,0 +1,35 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+.caja{
+    /* background-color: yellow; */
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 100px;
+    background: rgb(6, 150, 227);
+    background: linear-gradient(45deg, rgba(6, 150, 227, 1) 53%, rgba(105, 205, 143, 1) 89%, rgba(0, 212, 255, 1) 100%);
+    /* box-shadow: -10px -10px 50px black;  */
+    border-radius: 20px 0;
+    border: 5px solid red;
+    /*eje X - eje Y - blur - color*/
+}
+
+div {
+    background-color: yellow;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px solid black;
+    
+}
+
+h2{
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tamanio{
+    font-size: 100px;
+    color: red;
+}
